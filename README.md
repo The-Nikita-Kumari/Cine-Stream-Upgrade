@@ -36,6 +36,8 @@ cine-stream/
 │   ├── layout.js               # Root layout (replaces index.html + App.jsx)
 │   ├── page.js                 # Home page — SERVER COMPONENT (SSR fetch here)
 │   ├── globals.css             # Global styles
+│   ├── api\movies/
+│   │   └── route.js                 
 │   └── favorites/
 │       └── page.js             # Favorites page — Server Component wrapper
 │
@@ -52,7 +54,6 @@ cine-stream/
 │   ├── tmdb.js                 # TMDB API helpers (server-side, uses Next.js fetch cache)
 │   └── favorites.js            # localStorage helpers (client-side only)
 │
-├── public/                     # Static assets
 ├── .env.local.example          # Environment variable template
 ├── .gitignore
 ├── next.config.mjs
