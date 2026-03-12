@@ -144,3 +144,8 @@ Next.js extends the native `fetch` API. You can pass `{ next: { revalidate: 60 }
 - 🔎 **SEO** — movie titles and metadata visible to search engine crawlers
 - 🖼️ **Optimised images** — via `next/image`
 - 🔒 **Secure** — API key never exposed to the browser
+
+
+## Live URL Link
+
+Check out the application here: https://cine-stream-upgrade.vercel.app/
